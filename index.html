@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Life in Weeks</h1>
+        <div class="form">
+            <div class="input-grp">
+                <label for="dob">Date of Birth</label>
+                <input id="dob" type="date" placeholder="Enter date of Birth">
+            </div>
+            <div class="input-grp">
+                <label for="aod">Age of Death</label>
+                <input id="aod" type="number" step="10" min="0" max="100">
+            </div>
+        </div>
+        <div class="form">
+            <button class="btn" type="submit" id="calc" onclick="ageInWeeks()">Find Out!</button>
+            <button class="btn" type="submit" id="clear" onclick="toggleWeek()">Clear Tag</button>
+        </div>
+        <div id="timeline">
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
