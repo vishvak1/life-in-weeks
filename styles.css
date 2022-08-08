@@ -62,6 +62,11 @@ h1{
     box-sizing: border-box;
 }
 
+.week-mobile{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .y-disp{
     width: 20px;
     height: 20px;
